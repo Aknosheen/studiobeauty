@@ -73,7 +73,7 @@
 	width: 250px;
 	height: 100vh;
 	position: fixed;
-	right: -250px;
+	left: 100vh;
 	top: 0;
 	background: #009688;
 	z-index: 2;
@@ -94,7 +94,7 @@ nav ul li a{
 	background: #009688;
 	text-align: center;
 	position: fixed;
-	right: 30px;
+	left: calc(100vw - 90px);
 	top: 20px;
 	border-radius: 3px;
 	z-index: 3;
